@@ -120,6 +120,8 @@
   .brand-text { display: flex; flex-direction: column; line-height: 1.05; }
   .brand-name { font-family: var(--display); font-weight: 800; font-size: 1.02rem; letter-spacing: -0.01em; }
   .brand-sub { font-size: 0.66rem; letter-spacing: 0.13em; text-transform: uppercase; color: var(--ink-soft); font-weight: 600; }
+  .wordmark { display: block; height: 52px; width: auto; fill: var(--ink); flex: none; }
+  .foot .wordmark { height: 64px; }
 
   .nav-links { display: flex; align-items: center; gap: 28px; }
   .nav-links a.link { font-weight: 600; font-size: 0.92rem; color: var(--ink-soft); transition: color .15s; }
@@ -334,6 +336,7 @@
     .cta-band { padding: 24px; border-radius: 18px; }
     .quick .v { font-size: 0.98rem; }
     .cta-actions .v { font-size: clamp(1rem, 3.5vw, 1.16rem); }
+    .wordmark { height: 44px; }
   }
 </style>
 </head>
@@ -341,12 +344,12 @@
 
 <header>
   <div class="wrap nav">
-    <a class="brand" href="#top" aria-label="Floor and Carpet Solutions home">
-      <span class="mark" aria-hidden="true"></span>
-      <span class="brand-text">
-        <span class="brand-name">Floor &amp; Carpet Solutions</span>
-        <span class="brand-sub">Commercial Cleaning · Portland Metro</span>
-      </span>
+    <a class="brand" href="#top" aria-label="Floor and Carpet Solutions — home">
+      <svg class="wordmark" viewBox="0 0 200 118" role="img" aria-label="Floor and Carpet Solutions" xmlns="http://www.w3.org/2000/svg">
+        <text x="100" y="38"  text-anchor="middle" textLength="194" lengthAdjust="spacingAndGlyphs" font-family="Archivo, sans-serif" font-weight="900" font-size="46">FLOOR &amp;</text>
+        <text x="100" y="78"  text-anchor="middle" textLength="194" lengthAdjust="spacingAndGlyphs" font-family="Archivo, sans-serif" font-weight="900" font-size="46">CARPET</text>
+        <text x="100" y="108" text-anchor="middle" textLength="194" lengthAdjust="spacingAndGlyphs" font-family="Archivo, sans-serif" font-weight="700" font-size="28">SOLUTIONS</text>
+      </svg>
     </a>
 
     <nav class="nav-links" id="navlinks">
@@ -534,12 +537,12 @@
 <footer>
   <div class="wrap">
     <div class="foot">
-      <a class="brand" href="#top">
-        <span class="mark" aria-hidden="true"></span>
-        <span class="brand-text">
-          <span class="brand-name">Floor &amp; Carpet Solutions</span>
-          <span class="brand-sub">Commercial Cleaning · Portland Metro</span>
-        </span>
+      <a class="brand" href="#top" aria-label="Floor and Carpet Solutions — home">
+        <svg class="wordmark" viewBox="0 0 200 118" role="img" aria-label="Floor and Carpet Solutions" xmlns="http://www.w3.org/2000/svg">
+          <text x="100" y="38"  text-anchor="middle" textLength="194" lengthAdjust="spacingAndGlyphs" font-family="Archivo, sans-serif" font-weight="900" font-size="46">FLOOR &amp;</text>
+          <text x="100" y="78"  text-anchor="middle" textLength="194" lengthAdjust="spacingAndGlyphs" font-family="Archivo, sans-serif" font-weight="900" font-size="46">CARPET</text>
+          <text x="100" y="108" text-anchor="middle" textLength="194" lengthAdjust="spacingAndGlyphs" font-family="Archivo, sans-serif" font-weight="700" font-size="28">SOLUTIONS</text>
+        </svg>
       </a>
       <div class="foot-contact">
         <a href="tel:+15418798571"><strong>(541) 879-8571</strong></a>
